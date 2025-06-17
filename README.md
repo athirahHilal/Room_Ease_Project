@@ -1,17 +1,74 @@
 # Room_Ease_Project
 My final‑year project earned me second place in my batch.
 
-This user manual provides comprehensive guidance for using the Room Ease Portal, a mobile application developed as part of my Final Year Project at UPTM. The app is designed to improve the efficiency of staff room management by replacing a previously manual, Excel-based system with a streamlined digital solution.
+# 📱 Room Ease Portal
 
-The manual explains how different users—admins, staff, and students—can interact with the application based on their roles. It covers features such as:
+**Room Ease Portal** is a mobile application developed for my Final Year Project at UPTM. The app replaces a manual Excel-based system by providing a smart, role-based platform for managing staff room access and navigation within the campus.
 
-//Role-based access control: Tailored interfaces and permissions for each user type.
+This README serves as a user manual and technical overview of the project.
 
-//Real-time notifications: Automatic SMS alerts via Twilio and email notifications via SendGrid.
+---
 
-//3D interactive room navigation: Built using Mapedin to allow users to easily locate rooms.
+## 🔍 About the App
 
-//User authentication and data storage: Managed with Pocketbase for real-time backend support.
+Room Ease Portal is designed for three types of users—**Admins**, **Staff**, and **Students**—with tailored access based on their roles. The system improves communication, navigation, and room booking processes within UPTM.
 
-This manual is intended to help users understand the features, setup process, and navigation of the Room Ease Portal, ensuring a smooth and effective experience for all roles within the UPTM ecosystem.
+---
+
+## ✅ Key Features
+
+- **🔐 Role-Based Access Control**  
+  Each user type has a customized interface and set of permissions.
+
+- **📲 Real-Time Notifications**  
+  SMS alerts via **Twilio** and email notifications using **SendGrid**.
+
+- **🗺️ 3D Interactive Room Navigation**  
+  Built with **Mapedin**, allowing users to easily locate rooms.
+
+- **🔑 User Authentication & Data Storage**  
+  Powered by **Pocketbase** for real-time backend services.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+| Tool / Tech      | Purpose                              |
+|------------------|--------------------------------------|
+| React Native     | Cross-platform mobile development    |
+| Pocketbase       | Backend, database & authentication   |
+| Twilio           | SMS notification integration         |
+| SendGrid         | Email notification integration       |
+| Mapedin          | Interactive 3D room mapping          |
+| Git & GitHub     | Version control & project hosting    |
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Full-stack mobile app development
+- RESTful API integration
+- User interface and experience design (UI/UX)
+- Real-time data handling
+- Role-based authentication
+- Git version control
+- Agile development workflow
+
+---
+
+## 📖 Purpose of this Manual
+
+This manual guides users through:
+- Setting up and accessing the app
+- Understanding role-specific functionality
+- Navigating through the features (notifications, maps, and room access)
+- Getting the best experience based on their user role
+
+---
+
+## 📌 Status
+
+🏆 This project was awarded **2nd place** among my batch at UPTM, highlighting its real-world application and technical execution.
+
+---
 
